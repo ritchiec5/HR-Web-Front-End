@@ -1,0 +1,88 @@
+#chart-diagrams {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-left: 13%;
+}
+
+.donutchart {
+    transform: translateY(-10px);
+    width: 15.5vw;
+    height: 32vh;
+}
+
+.donutchart-arcs {
+    transform: translateY(-100px);
+}
+
+.donutchart1 {
+    float: left;
+}
+
+.donutchart2 {
+    float: left;
+}
+
+.donutchart3 {
+    float: left;
+}
+
+.donutchart-innertext-label {
+    font-family: "Gothic A1";
+    transform: translateY(60px);
+    transform: translateX(1px);
+    font-size: 50px;
+}
+
+.donutchart-innertext-value {
+    font-family: "Gothic A1";
+    transform: translateY(50px);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.donutchart-arcs-path {
+    fill-opacity: 0.3;
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+    animation-name: DrawLine, FillIn;
+
+    animation-delay: .2s, 1s;
+    animation-duration: 0.8s, 0.2s; 
+    stroke-dashArray: 1500;
+    stroke-dashoffset: 1500;
+}
+
+.donut-text {
+    margin: auto;
+    width: 50%;
+  
+    font-family: "Gothic A1";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+  
+    color: #000000;
+    opacity: 0.6;
+}
+
+@keyframes DrawLine {
+    to {
+        stroke-dashOffset: 0;
+    }
+}
+
+@keyframes FillIn {
+    from {
+        fill-opacity: 0.3;
+    }
+    to {
+        fill-opacity: 1;
+    }
+}
+

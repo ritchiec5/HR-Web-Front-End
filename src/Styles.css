@@ -1,0 +1,923 @@
+body {
+  background-color: #d8c8e1 !important;
+}
+
+/*HOME PAGE///////////////////////////////////////////////////////*/
+.features {
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+}
+
+.homepage-main-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 76px;
+  text-align: center;
+
+  padding-top: 1%;
+  margin-bottom: 0;
+
+  color: #544a55;
+}
+
+.homepage-sub-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-size: 20px;
+  text-align: center; 
+  
+  margin-bottom: 1%;
+
+  color: #686268;
+}
+
+.homepage-div {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 83%;
+
+  margin-bottom: 2%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-div-btn {
+  margin-left: 60%;
+  width: 40%;
+  padding: 2%;
+  margin-top: auto;
+}
+
+.homepage-smaller-div {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 56%;
+
+  margin-bottom: 2%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-div-smaller-btn {
+  margin-left: 50%;
+  width: 50%;
+  padding: 2%;
+  margin-top: auto;
+}
+
+.homepage-attendance-div {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 111%;
+
+  margin-bottom: 2%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-div-calendar-btn {
+  margin-left: 40%;
+  width: 60%;
+  padding: 2%;
+  margin-top: auto;
+}
+
+.homepage-calendar-div {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 98%;
+
+  margin-bottom: 2%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-approval-div {
+  display: flex;
+  flex-direction: column;
+  
+  width: 98.5%;
+  height: 95%;
+
+  margin-left: 1%;
+  margin-bottom: 2%;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.homepage-div-approval-btn {
+  margin-left: 85%;
+  width: 15%;
+  padding: 0.5%;
+  margin-top: auto;
+}
+
+.left-column {
+  width: 40%;
+  height: 371px;
+
+  margin-left: 1%;
+
+  float: left;
+}
+
+.middle {
+  width: 30%;
+  height: 371px;
+
+  margin-left: 1%;
+
+  float: left;
+}
+
+.right-column {
+  width: 25.5%;
+  height: 640px;
+
+  margin-left: 1%;
+
+  float: left;
+}
+
+.attendance-table {
+  height: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  margin-top: 50px;
+  width: 300px;
+  height: 400px;
+  float: right;
+}
+
+.homepage-div-text {
+  width: 100%;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 76px;
+  margin-left: 15px;
+  margin-bottom: 1% !important;
+
+  color: #544a55;
+}
+
+.homepage-div-details {
+  width: 100%;
+  margin-left: 5%;
+
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-size: 17px;
+}
+
+.mini-calendar {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 78%;
+}
+
+.ant-alert.ant-alert-error.ant-alert-with-description.ant-alert-no-icon {
+  width: 91%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.ant-alert-message {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: bold;
+  color: red !important;
+}
+
+.ant-alert-description {
+  font-family: "Gothic A1";
+  font-style: normal;
+}
+
+.popup{
+  z-index: 1;
+}
+
+.urgent-closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.urgent-closebtn:hover {
+  color: black;
+}
+
+/* Features Page///////////////////////////////////////////////////////*/
+.features-main-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 76px;
+  text-align: center;
+
+  padding-top: 1%;
+  margin-bottom: 0;
+
+  color: #544a55;
+}
+
+/* Status Page///////////////////////////////////////////////////////*/
+.status {
+  margin-left: 3.5%;
+}
+
+.css-w4z10b-MuiStack-root {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 98%;
+}
+
+.apply-status {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.claim-approve-status {
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.apply-status-left-div-main-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: left;
+  color: #ffffff;
+
+  margin-top: 0vh;
+  margin-bottom: 0.5vh;
+}
+
+.status-section {
+  margin-bottom: 1%;
+}
+
+.Status-left-div-main-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: left;
+  color: #ffffff;
+
+  margin-left: 2vw;
+  margin-top: 0vh;
+  margin-bottom: 0.5vh;
+}
+
+.Status-left-div-mini-text {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+
+  padding-top: 1%;
+  margin-left: 0.5vw;
+  margin-bottom: -2.5vh;
+}
+
+.Status-left-div-white {
+  position: relative;
+
+  width: 44vw;
+  height: 25vh;
+  
+  border-color: #000000;
+  border: 1.5px solid;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Status-left-div-cancelbtn {
+  width: 7vw;
+  height: 5vh;
+  margin-left: 36.5vw;
+  background: #c4c4c4;
+  border-radius: 5px;
+  font-family: "Gothic A1";
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+
+#Status-left-div-cancelbtn1 {
+  width: 7vw;
+  height: 5vh;
+  margin-left: 36.5vw;
+  background: #c4c4c4;
+  border-radius: 5px;
+  font-family: "Gothic A1";
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+
+#Status-left-div-cancelbtn1:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.ant-popover-open::after {
+  width: 7vw;
+  height: 5vh;
+  margin-left: 36.5vw;
+  background: #c4c4c4;
+  border-radius: 5px;
+  font-family: "Gothic A1";
+  font-size: 15px;
+  color: white;
+  border: none;
+
+  color: #dbffee;
+}
+
+.Status-left-div-cancelbtn:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.status-left-div-container {
+  width: 45.1vw;
+  height: 75vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #544A55;
+
+  border-color: #000000;
+  border: 1.5px solid;
+
+  overflow-y: scroll;
+}
+
+.approval-status-left-div-container{
+  width: 45.1vw;
+  height: 66.1vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #544A55;
+
+  border-color: #000000;
+  border: 1.5px solid;
+
+  overflow-y: scroll;
+}
+
+.status-right-div-donut {
+  width: 45vw;
+  height: 75vh;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  float: left;
+}
+
+.Status-right-div-main-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+
+  margin-left: 3%;
+  margin-bottom: 0;
+
+  color: #ffffff;
+}
+
+/* Apply Page ///////////////////////////////////////////////////////*/
+.claim-container{
+  display: flex !important;
+  flex-direction: row !important;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+}
+
+.Apply-div {
+  width: 573px;
+  height: 785px;
+
+  background: #c8b3d4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Apply-main-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  margin: auto;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.Apply-mini-text {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 1vw;
+  color: #000000;
+}
+
+.Apply-textarea {
+  width: 31vw;
+  height: 40vh;
+  margin-left: -14vw;
+  margin-top: 7vh;
+  font: "Gothic A1";
+  font-size: 20px;
+  resize: none;
+  border-radius: 5px;
+}
+
+.Apply-Dropdown {
+  margin-left: 15vw;
+  margin-top: -10vh;
+}
+
+.Apply-left-div {
+  width: 435px;
+  height: 783px;
+
+  background: #c8b3d4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Apply-right-div {
+  width: 824px;
+  height: 785px;
+
+  background: #c8b3d4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Apply-labels {
+  margin-top: 2vh;
+  display: inline-block;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1vw;
+  color: #000000;
+}
+
+.Apply-Forms {
+  display: flex;
+  flex-direction: column;
+
+  width: 103%;
+  height: 79%;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.claim-apply-forms{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+  width: 115%;
+  height: 91.5%;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Apply-Button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.Apply-Text {
+  width: 31vw;
+  height: 20vh;
+  margin-left: 1vw;
+  margin-top: 1vh;
+  font: "Gothic A1";
+  font-size: 15px;
+  resize: none;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.ant-input.ant-input-disabled{
+  width: 55% !important;
+}
+
+#Apply-input {
+  float: left; 
+  width: 60% !important;
+}
+
+.uploadbutton {
+  margin-top: 4% !important;
+  margin-left: 13.5% !important;
+}
+
+.uploadbuttondiv {
+  float: left;
+  margin-left: 10%;
+}
+
+.uploadbutton2 {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.claim-apply-btn{
+  margin-left: 25%;
+  margin-top: 40%;
+}
+
+.apply-btn {
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+.apply-status-right-div-donut {
+  width: 60vw;
+  height: 65vh;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  float: left;
+
+  margin-left: 2vw;
+}
+
+.donut-figure-apply-status{
+  margin-top: 10% !important;
+}
+
+.claim-types-select{
+  width: 40% !important;
+  height: 10% !important;
+  margin-top: 4% !important;
+}
+
+.claim-amount-select{
+  width: 40% !important;
+  height: 10% !important;
+  margin-top: 4% !important;
+}
+
+.claim-manager-select{
+  width: 40% !important;
+  height: 10% !important;
+  margin-top: 4% !important;
+  margin-left: 15% !important;
+}
+
+
+/* Managing LEAVE Page ///////////////////////////////////////////////////////*/
+.Leave-Manage-div-right {
+  width: 62vw;
+  height: 84vh;
+  margin-left: 1vw;
+  float: left;
+}
+
+.Leave-Manage-div-btn-tick {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  color: transparent;
+  margin-left: 20vw;
+  margin-top: -1vh;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  align-items: center;
+}
+
+#Leave-Manage-div-btn-tick1 {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  color: transparent;
+  margin-left: 23vw;
+  margin-top: -1vh;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  align-items: center;
+}
+
+#Leave-Manage-div-btn-tick2 {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  color: transparent;
+  margin-left: 23vw;
+  margin-top: -4vh;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  align-items: center;
+}
+
+.Leave-Manage-div-btn-tick:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#Leave-Manage-div-btn-tick1:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#Leave-Manage-div-btn-tick2:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.Leave-Manage-div-btn-cross {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  margin-left: 0vw;
+}
+
+#Leave-Manage-div-btn-cross1 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  margin-left: 27vw;
+  margin-top: -1vh;
+}
+
+#Leave-Manage-div-btn-cross2 {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+  margin-left: 27vw;
+  margin-top: -4vh;
+}
+
+.Leave-Manage-div-btn-cross:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#Leave-Manage-div-btn-cross1:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#Leave-Manage-div-btn-cross2:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.Circle-Icon:hover {
+  font-size: 43px;
+}
+
+.Leave-Manage-div-rejection {
+  width: 100vw;
+  height: 120vh;
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  display: none;
+  margin-bottom: 20vh;
+  z-index: 1;
+}
+
+.Leave-Manage-div-rejection-dark-div {
+  width: 40vw;
+  height: 61vh;
+  margin: auto;
+  margin-top: 25vh;
+  background: #544a55;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.Leave-Manage-div-rejection-main-text {
+  text-align: center;
+  font-family: "Gothic A1";
+  font-size: 30px;
+  color: white;
+  border: none;
+
+  padding-top: 3%;
+  margin-bottom: 0;
+}
+
+.Leave-Manage-div-rejection-dark-div-textarea {
+  width: 35vw;
+  height: 40vh;
+  margin-left: 2.5vw;
+  margin-top: 2vh;
+  font: "Gothic A1";
+  font-size: 20px;
+  resize: none;
+  border-radius: 5px;
+}
+
+#Leave-Manage-div-white1 {
+  margin-top: 3vh;
+}
+
+.Claim-Detail {
+  margin-left: 1vw;
+  margin-top: 0vh;
+  font: "Gothic A1";
+  font-size: 30px;
+}
+
+#Receipts {
+  color: blue;
+}
+
+#Claim-Details2 {
+  display: none;
+}
+
+.Claim-white:hover{
+    cursor: pointer;
+    background-color:lightgray;
+}
+
+/* Claim Page ///////////////////////////////////////////////////////*/
+.Claim-Manage-div-right-donut{
+  width: auto;
+  height: 41vh;
+  margin-left: 1vw;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.Claim-Manage-div-donut {
+  width: 120%;
+  margin-left: -15.5%;
+}
+
+.Claim-Details-div {
+  font-family: "Gothic A1";
+}
+
+.claim-detail-container {
+  width: auto;
+  height: 25vh;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  float: left;
+}
+
+/* Payslip Page ///////////////////////////////////////////////////////*/
+.month-dropdown {
+  font-family: "Gothic A1" !important;
+}
+
+.payslip-top{
+  width: 100%;
+  height: 10%;
+  margin-top: 0.5%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.payslipbox-container{
+  width: auto;
+  height: auto;
+  padding-bottom: 1.5%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.payslipbox {
+  width: 100vh;
+  height: 100vh;
+  font-size: 40px;
+  font-family: "Gothic A1";
+  background: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 10px 10px 5px slategrey;
+  align-items: center;
+}
+
+.paysliptext {
+  font-size: 50px;
+  font-family: "Gothic A1";
+  padding-left: 2%;
+}
+
+.payslipvalue {
+  font-size: 50px;
+  font-family: "Gothic A1";
+  padding-right: 2%;
+}
+
+.payslipalign {
+  justify-content: space-between;
+  display: flex;
+}
+
+.payslipheader {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 94px;
+  color: #544a55;
+}
+
+.payslip-dropdown {
+  margin-top: 1% !important;
+}
+
+.download {
+  margin-top: 1.5% !important;
+}
+
+/* Approval Page ///////////////////////////////////////////////////////*/
+
+.help-btn {
+  position: absolute !important;
+  top: 5% !important;
+  right: 2% !important;
+}
+
+.approve-btns {
+  position: absolute !important;
+  bottom: 5% !important;
+  right: 2% !important;
+}

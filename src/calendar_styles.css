@@ -1,0 +1,123 @@
+/* WHOLE CALENDAR */
+.fc {
+    font-family: "Playfair Display";
+}
+
+/* CALENDAR */
+.fc-view-harness.fc-view-harness-active{
+    z-index: 0;
+    background-color: #ffffff;
+}
+
+/* CALENDAR PREV BUTTON */
+.fc-prev-button.fc-button.fc-button-primary
+{
+    background-color: #544A55;
+    border-color: #544A55;
+}
+
+.fc-prev-button.fc-button.fc-button-primary:hover
+{
+    background-color: #705c72;
+    border-color: #705c72;
+}
+
+/* CALENDAR NEXT BUTTON */
+.fc-next-button.fc-button.fc-button-primary
+{
+    background-color: #544A55;
+    border-color: #544A55;
+}
+
+.fc-next-button.fc-button.fc-button-primary:hover
+{
+    background-color: #705c72;
+    border-color: #705c72;
+}
+
+.fc-header-toolbar.fc-toolbar.fc-toolbar-ltr{
+    margin: 0 !important;
+    padding-bottom: 0.5%;
+}
+
+/* MONTH NAME */
+#fc-dom-1 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+a{
+    color: black;    
+}
+
+h1 {
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+/* LEGEND */
+.legend-container {
+    background: #ffffff;
+    border-color: #544A55;
+    border: 1.5px solid;
+
+    height: 14vh;
+}
+
+.legend-title {
+    font-family: "Gothic A1";
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 150%;
+}
+  
+.legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+
+.legend-scale ul li {
+    font-family: "Gothic A1";
+    font-size: 100%;
+    list-style: none;
+
+    margin-right: 1%;
+    line-height: 18px;
+    margin-bottom: 0.1%;
+}
+
+.legend-labels {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2% !important;
+
+    width: 100% !important;
+}
+
+.my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 16px;
+    
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+}
+
+.my-legend{
+    margin: 0.5%;
+}
+
+.my-legend a {
+    color: #777;
+}
